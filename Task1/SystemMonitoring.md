@@ -44,3 +44,9 @@ Add:
 ---
 #### Output log file:
 <img width="563" alt="logfile" src="https://github.com/user-attachments/assets/e8e190db-c65d-4c38-82a9-2e2691ede2aa" />
+
+### htop output:
+![alt text](image-1.png)
+
+### top output:
+![alt text](image.png)

@@ -24,6 +24,7 @@ du -sh $HOME/* 2>/dev/null >> "$LOGFILE"
 # top 10 CPU consuming processes
 echo "************* Top 10 CPU consuming process running ****************" >> "$LOGFILE"
 ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -n 11 >> "$LOGFILE"
+#top | head -n 4 | tail -n 2 >> >> "$LOGFILE"  --> this can also provide memory and cpu details
 # top 10 memory consuming processes
 echo "************ Top 10 memory consuming process running *************" >> "$LOGFILE"
 ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n 11 >> "$LOGFILE"
